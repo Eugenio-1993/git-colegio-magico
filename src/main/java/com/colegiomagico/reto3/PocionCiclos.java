@@ -6,7 +6,11 @@ package com.colegiomagico.reto3;
 public class PocionCiclos {
 
     public static String preparar(int cantidad) {
-        return ""; // TODO: Cambia esto
+        String resultado = ""; // Me estaba dando error y la IA me corrigio diciendo que me faltaba una variable
+        for (int i = 1; i <= cantidad; i++) {
+            resultado += "Pocion ";
+        }
+        return resultado;
     }
 
     public static void main(String[] args) {
